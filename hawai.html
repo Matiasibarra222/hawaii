@@ -32,7 +32,7 @@
               <a class="nav-link" href="#">Convierte en navegador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#">Compra ticket</a>
+              <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#exampleModalCenter">Compra ticket</a>
             </li>
 
           </ul>
@@ -61,7 +61,7 @@
                     compartir con nuestra comunidad, TE ESPERAMOS!
                    </p>
                    <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                   <button type="button" name="button" class="btn btn-success btn-platzi">Comprar Ticket</button>
+                   <button type="button" name="button" class="btn btn-success btn-platzi" data-toggle="modal" data-target="#exampleModalCenter">Comprar Ticket</button>
                 </div>
 
               </div>
@@ -71,6 +71,79 @@
         </div>
       </div>
     </main>
+    <section id="speaker" class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Conoce a los </small>
+            <h2>Oradores</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mt-4 tr">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/sacha.jpg" class="card-img-top" alt="./assets/f">
+              <div class="card-body">
+                <h5 class="card-title">Sacha Lifszycs</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-4 tr">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/freddy.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sacha Lifszycs</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-4 tr">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/leonidas2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sacha Lifszycs</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-4 tr">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/leonidas2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sacha Lifszycs</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="place-time">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-6  pr-0 pl-0">
+                <img src="./assets/honolulu.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-6 pb-4 pt-4">
+              <h2>Honolulu - Octubre 2025</h2>
+              <p>
+                sdaklfjkladsjf sadlkfjlkasd jdkfj dklasfjlkadsj klasdjf
+                jkladsfjlkjl
+                aksldfjklasjd kladsfjklajkladsjfl
+                jkasdfjlk adlskfjkl jkladsfklj adsklfj
+                 dlksljfakl
+              </p>
+              <a href="#" class="btn btn-outline-light">Conoce mas</a>
+            </div>
+
+          </div>
+      </div>
+    </section>
     <footer id="footer">
       <div class="container">
         <div class="row text-center">
@@ -105,6 +178,42 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal  -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Comprar ticket</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+          <div class="form-row">
+            <div class="form-group col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                </div>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="alert alert-warning" role="alert">
+          Recibiras un Email
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">cancelar</button>
+        <button type="button" class="btn  btn-platzi">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

@@ -1,5 +1,14 @@
+html{
+  position: relative;
+  height: 100%;
+}
 body{
-  height: auto;
+  position: absolute;
+  height: 23%
+}
+.tr{
+  display: flex;
+  justify-content:  center;
 }
 .text-platzi{
   color:#97c93e !important;
@@ -15,7 +24,14 @@ body{
   width: 80px;
 }
 
+#place-time img{
+  max-width: 100%;
 
+}
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
 
 #footer{
   height: 100%;
